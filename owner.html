@@ -1,9 +1,10 @@
 
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>SpecTrim | Owner Dashboard</title>
 <style>
 :root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#eaf2ff;background:#08172b;color-scheme:dark}
@@ -52,7 +53,7 @@ main{padding:0 12px}
 h1{font-size:22px}
 }
 </style>
-<link rel="icon" type="image/png" href="assets/spectrim-48.png"><link rel="apple-touch-icon" href="assets/spectrim-192.png"><style id="spectrim-premium-final">
+<link href="assets/spectrim-48.png" rel="icon" type="image/png"/><link href="assets/spectrim-192.png" rel="apple-touch-icon"/><style id="spectrim-premium-final">
 :root{color:#F5F2EC!important;background:#0B0D0F!important;color-scheme:dark}
 body{background:#0B0D0F!important;color:#F5F2EC!important}
 header{background:linear-gradient(115deg,#111315,#202328)!important;border-bottom:1px solid #6D5739!important}
@@ -70,7 +71,7 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline-color:#D6A
 .tag.off{background:#493438!important;color:#FFCBCB!important}
 </style><style id="spectrim-luxury-correction">.st-portal-brand{display:flex;align-items:center;gap:15px}.st-portal-brand img{width:57px;height:57px;object-fit:contain;border:1px solid #665139;border-radius:12px}.st-portal-brand h1{margin:0;font-size:28px;font-weight:600;letter-spacing:-.8px}.st-portal-brand h1 span,.st-portal-brand .brand span{color:#D6AD70}.st-portal-sub{font-size:9px;letter-spacing:2px;color:#C7B497;margin-top:5px}header{background:linear-gradient(115deg,#101214,#24211E)!important;border-bottom:1px solid #665139!important}button:focus-visible,input:focus-visible{outline:2px solid #D6AD70!important;outline-offset:2px}@media(max-width:480px){.st-portal-brand img{width:47px;height:47px}.st-portal-sub{font-size:8px;letter-spacing:1px}}</style><style id="spectrim-exact-brand">.st-portal-brand img{object-fit:contain!important;padding:3px!important;background:#101112!important}.st-portal-brand .brand,.st-portal-brand h1{font-weight:500!important;letter-spacing:-1px!important}</style><style id="spectrim-transparent-logo-fix">
 .st-portal-brand img,.st-portal-brand>img{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;outline:none!important;padding:0!important;object-fit:contain!important}
-</style><link rel="icon" type="image/png" href="assets/favicon-st-v2.png"><style id="spectrim-polish-v2">.st-portal-brand img{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;filter:none!important;padding:0!important;object-fit:contain!important;width:70px!important;height:auto!important}.st-portal-brand{gap:13px!important}@media(max-width:480px){.st-portal-brand img{width:54px!important}}</style>
+</style><link href="assets/favicon-st-v2.png" rel="icon" type="image/png"/><style id="spectrim-polish-v2">.st-portal-brand img{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;filter:none!important;padding:0!important;object-fit:contain!important;width:70px!important;height:auto!important}.st-portal-brand{gap:13px!important}@media(max-width:480px){.st-portal-brand img{width:54px!important}}</style>
 <style id="spectrim-racing-green-2026">
 :root{--st-bg:#101912;--st-green:#20251F;--st-deep:#111b15;--st-card:#202b23;--st-sage:#8C9B86;--st-ivory:#EAE7DD;--st-bronze:#B39B78;--st-border:#465448;color-scheme:dark!important;background:var(--st-bg)!important;color:var(--st-ivory)!important;scroll-behavior:smooth}
 body{background:radial-gradient(ellipse at 75% -10%,#293b2c 0%,#101912 48%,#0d150f 100%)!important;color:var(--st-ivory)!important;font-family:Inter,system-ui,-apple-system,'Segoe UI',sans-serif}
@@ -90,7 +91,7 @@ input,select{background:#121d16!important;color:var(--st-ivory)!important;border
 @media(max-width:720px){header{padding:15px!important}main{padding:0 12px;margin:16px auto}.owner-layout{display:block}.owner-sidebar{position:static;min-height:0;display:flex;flex-wrap:wrap;gap:5px;margin-bottom:16px;padding:12px}.side-kicker,.side-foot{display:none}.side-link{font-size:12px;padding:10px;margin:0}.panel{padding:17px!important}.grid{gap:9px}.tile{padding:16px!important}.tile strong{font-size:26px}.connection-panel{max-width:none}.st-portal-brand h1{font-size:23px!important}}
 @media(max-width:360px){.grid{grid-template-columns:1fr}}
 </style>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap"><style id="spectrim-design-system">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><style id="spectrim-design-system">
 /* SpecTrim premium consistency pass - Source Sans 3 */
 
 :root{--st-forest:#14241c;--st-panel:#1c3025;--st-bronze:#b69b73;--st-ivory:#f4f0e7;--st-stroke:rgba(182,155,115,.38);font-family:'Source Sans 3',Arial,sans-serif!important}
@@ -110,86 +111,91 @@ input,select,textarea{border-radius:4px!important;max-width:100%}
 button{border-radius:4px!important}
 header{padding-top:max(16px,env(safe-area-inset-top))!important}
 @media(max-width:700px){.grid,.cards,.stats,.metrics{gap:10px}header{padding-top:calc(15px + env(safe-area-inset-top))!important}.panel,.tile,.card{padding:16px!important}}
-</style><style id="spectrim-header-identity">.spectrim-brand-mark{width:39px;height:39px;object-fit:contain;vertical-align:middle;margin-right:10px;flex:none}.spectrim-brand-lockup{display:inline-flex;align-items:center;gap:4px;min-width:0}.spectrim-brand-lockup span{font-family:'Source Sans 3',Arial,sans-serif;font-weight:600;letter-spacing:.02em;color:#f4f0e7}.spectrim-brand-lockup img{background:transparent!important;box-shadow:none!important;border:0!important}</style></head>
+</style><style id="spectrim-header-identity">.spectrim-brand-mark{width:39px;height:39px;object-fit:contain;vertical-align:middle;margin-right:10px;flex:none}.spectrim-brand-lockup{display:inline-flex;align-items:center;gap:4px;min-width:0}.spectrim-brand-lockup span{font-family:'Source Sans 3',Arial,sans-serif;font-weight:600;letter-spacing:.02em;color:#f4f0e7}.spectrim-brand-lockup img{background:transparent!important;box-shadow:none!important;border:0!important}</style><style id="spectrim-pearl-edition">
+/* SpecTrim Pearl Edition — owner portal visual overrides */
+:root{--st-bg:#f5f6f3!important;--st-card:#fff!important;--st-border:#dce2db!important;--st-ink:#21372b!important;--st-accent:#9f8256!important;color-scheme:light!important}
+html,body{background:#f5f6f3!important;color:#26372b!important;font-family:'Source Sans 3','Segoe UI',Arial,sans-serif!important}
+header{background:#fff!important;color:#26372b!important;border-bottom:1px solid #dce2db!important;box-shadow:none!important}
+header h1,header h1 span{color:#264331!important}header .muted,header .st-portal-sub{color:#778277!important}
+header img{background:transparent!important;box-shadow:none!important;border-radius:0!important}
+.panel,.tile,.card,.stat,.owner-content,.owner-sidebar{background:#fff!important;color:#26372b!important;border:1px solid #dce2db!important;border-radius:6px!important;box-shadow:none!important}
+.owner-sidebar{position:sticky!important;top:16px!important}
+.side-kicker{color:#9b825c!important}.side-link{color:#425747!important;border-radius:4px!important}.side-link:hover,.side-link.active{background:#eef2ed!important;color:#23412f!important}
+.muted,.subtle,small{color:#68776b!important}h1,h2,h3,strong{color:#253c2e!important}
+input,select,textarea{background:#fff!important;color:#26382b!important;border:1px solid #d8dfd7!important;border-radius:5px!important}
+button{border-radius:5px!important}button.primary{background:#284a37!important;color:#fff!important}
+@media(max-width:760px){.owner-sidebar{position:static!important}}
+</style><style id="spectrim-owner-pearl-red">@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800&display=swap');:root{--st-bg:#f8f8f7!important;--st-green:#f8f8f7!important;--st-deep:#f8f8f7!important;--st-card:#fff!important;--st-sage:#687078!important;--st-ivory:#17191c!important;--st-bronze:#c8102e!important;--st-border:#e6e7e8!important;background:#f8f8f7!important;color:#17191c!important;color-scheme:light!important}html,body{background:#f8f8f7!important;color:#17191c!important;font-family:'Source Sans 3',Arial,sans-serif!important}body,button,input,select,textarea{font-family:'Source Sans 3',Arial,sans-serif!important}header{background:#fff!important;color:#17191c!important;border-bottom:1px solid #e6e7e8!important;box-shadow:none!important}.st-portal-brand img{background:transparent!important;border:0!important;box-shadow:none!important;object-fit:contain!important;width:95px!important;height:70px!important}.st-portal-brand h1{color:#17191c!important;letter-spacing:.08em!important}.st-portal-brand h1 span{color:#c8102e!important}.st-portal-sub{color:#687078!important}.panel,.tile,.owner-sidebar,.details,.record,.staff-item,.overview-head{background:#fff!important;color:#17191c!important;border:1px solid #e6e7e8!important;border-radius:10px!important;box-shadow:0 5px 24px #17191c09!important}.owner-sidebar{background:#fff!important}.side-kicker,.side-foot{color:#c8102e!important}.side-link{color:#17191c!important;border-radius:7px!important}.side-link:hover,.side-link:focus-visible{background:#fff2f4!important;color:#c8102e!important}.overview-head{background:#fff!important}.muted,.hint{color:#687078!important}.tile strong,.panel h2,.panel h3{color:#17191c!important}button{background:#c8102e!important;color:#fff!important;border:1px solid #c8102e!important;border-radius:8px!important}button.secondary{background:#fff!important;color:#c8102e!important;border-color:#e6e7e8!important}button.danger{background:#8c2337!important;color:#fff!important}input,select{background:#fff!important;color:#17191c!important;border:1px solid #d9dadd!important;border-radius:8px!important}.tag{background:#f2f2f2!important;color:#17191c!important}.tag.off{background:#ffeaea!important;color:#8c2337!important}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #c8102e!important;outline-offset:2px!important}</style></head>
 <body>
-
 <header>
-<div class="st-portal-brand"><img src="assets/spectrim-logo.png" alt="SpecTrim emblem"><div><h1>Spec<span>Trim</span></h1><div class="st-portal-sub">AUTOMOTIVE INTELLIGENCE · OWNER PORTAL</div></div></div>
+<div class="st-portal-brand"><img alt="SpecTrim emblem" src="assets/spectrim-st-transparent.png"/><div><h1>Spec<span>Trim</span></h1><div class="st-portal-sub">AUTOMOTIVE INTELLIGENCE · OWNER PORTAL</div></div></div>
 <div class="muted">Platform administration</div>
 </header>
-
 <main>
-<section id="config" class="panel hidden">
+<section class="panel hidden" id="config">
 <h2>Connect Supabase</h2>
 <p class="muted">Use only your public project URL and publishable/anon key. Never paste a secret or service-role key.</p>
 <label for="url">Project URL</label>
-<input id="url" autocomplete="url" placeholder="https://project.supabase.co">
+<input autocomplete="url" id="url" placeholder="https://project.supabase.co"/>
 <label for="key">Public publishable key</label>
-<input id="key" autocomplete="off">
+<input autocomplete="off" id="key"/>
 <button id="saveConfig">Save connection</button>
 </section>
-
-<section id="login" class="panel hidden">
+<section class="panel hidden" id="login">
 <h2>Owner sign in</h2>
 <label for="email">Email</label>
-<input id="email" type="email" autocomplete="username">
+<input autocomplete="username" id="email" type="email"/>
 <label for="password">Password</label>
-<input id="password" type="password" autocomplete="current-password">
+<input autocomplete="current-password" id="password" type="password"/>
 <button id="signIn">Sign in</button>
 </section>
-
-<section id="dashboard" class="hidden owner-layout">
-<aside class="owner-sidebar" aria-label="Dashboard navigation">
+<section class="hidden owner-layout" id="dashboard">
+<aside aria-label="Dashboard navigation" class="owner-sidebar">
 <div class="side-kicker">PLATFORM MANAGEMENT</div>
-<a href="#overview" class="side-link">◈ &nbsp; Overview</a>
-<a href="#manage-dealers" class="side-link">▤ &nbsp; Dealerships</a>
-<a href="#create-dealer" class="side-link">＋ &nbsp; Create group</a>
-<a href="#invite-staff" class="side-link">♧ &nbsp; Invite staff</a>
-<a href="#staff-directory" class="side-link">☷ &nbsp; Staff directory</a>
+<a class="side-link" href="#overview">◈   Overview</a>
+<a class="side-link" href="#manage-dealers">▤   Dealerships</a>
+<a class="side-link" href="#create-dealer">＋   Create group</a>
+<a class="side-link" href="#invite-staff">♧   Invite staff</a>
+<a class="side-link" href="#staff-directory">☷   Staff directory</a>
 <div class="side-foot">SPECTRIM <span>·</span> OWNER</div>
 </aside>
 <div class="owner-content">
-
-<div id="overview" class="panel row overview-head">
+<div class="panel row overview-head" id="overview">
 <div>
 <h2>Platform overview</h2>
-<div id="identity" class="muted"></div>
+<div class="muted" id="identity"></div>
 </div>
-<div class="stack"><button id="changePassword" class="secondary">Change password</button><button id="signOut" class="secondary">Sign out</button></div>
+<div class="stack"><button class="secondary" id="changePassword">Change password</button><button class="secondary" id="signOut">Sign out</button></div>
 </div>
-
 <div class="grid">
 <div class="tile"><div class="muted">Dealership groups</div><strong id="dealerships">—</strong></div>
 <div class="tile"><div class="muted">Branches</div><strong id="branches">—</strong></div>
 <div class="tile"><div class="muted">Stock records</div><strong id="stock">—</strong></div>
 <div class="tile"><div class="muted">Import batches</div><strong id="imports">—</strong></div>
 </div>
-
-<div id="create-dealer" class="panel">
+<div class="panel" id="create-dealer">
 <h2>Create dealership group</h2>
 <form id="createDealerForm">
 <label for="dealerName">Group name</label>
-<input id="dealerName" maxlength="120" required placeholder="Example Motor Group">
+<input id="dealerName" maxlength="120" placeholder="Example Motor Group" required=""/>
 <button id="createDealer" type="submit">Create dealership</button>
 </form>
-<p id="createResult" class="status" role="status" aria-live="polite"></p>
+<p aria-live="polite" class="status" id="createResult" role="status"></p>
 </div>
-
-<div id="manage-dealers" class="panel">
+<div class="panel" id="manage-dealers">
 <div class="row">
 <h2>Manage dealerships</h2>
-<button id="refresh" class="secondary">Refresh</button>
+<button class="secondary" id="refresh">Refresh</button>
 </div>
 <p class="muted small">Expand a group to manage branches, activation and trial dates. Changes are saved directly to Supabase.</p>
 <div id="dealerList">Loading…</div>
 </div>
-
-<div id="invite-staff" class="panel">
+<div class="panel" id="invite-staff">
 <h2>Invite staff</h2>
 <p class="muted small">Invitations are sent through the secure Supabase Edge Function. Only invite people who should have access to the selected dealership.</p>
 <form id="inviteForm">
 <label for="staffEmail">Staff email</label>
-<input id="staffEmail" type="email" autocomplete="email" required placeholder="person@dealership.co.uk">
+<input autocomplete="email" id="staffEmail" placeholder="person@dealership.co.uk" required="" type="email"/>
 <label for="staffRole">Role</label>
 <select id="staffRole">
 <option value="group_admin">Dealer group administrator</option>
@@ -197,37 +203,33 @@ header{padding-top:max(16px,env(safe-area-inset-top))!important}
 <option value="sales_executive">Sales executive</option>
 </select>
 <label for="staffDealer">Dealership group</label>
-<select id="staffDealer" required></select>
+<select id="staffDealer" required=""></select>
 <label for="staffBranch">Branch</label>
 <select id="staffBranch"></select>
 <p class="hint">A branch is required for branch managers and sales executives.</p>
 <button id="inviteButton" type="submit">Send staff invitation</button>
 </form>
-<p id="inviteResult" class="status" role="status" aria-live="polite"></p>
+<p aria-live="polite" class="status" id="inviteResult" role="status"></p>
 </div>
-
-<div id="staff-directory" class="panel">
+<div class="panel" id="staff-directory">
 <div class="row">
 <h2>Staff directory</h2>
-<button type="button" class="secondary" id="refreshStaff">Refresh staff</button>
+<button class="secondary" id="refreshStaff" type="button">Refresh staff</button>
 </div>
 <p class="muted small">Staff visibility depends on your database read permissions. Invitations may not appear here until the recipient accepts.</p>
-<div id="staffList" class="staff-table muted">Loading…</div>
+<div class="staff-table muted" id="staffList">Loading…</div>
 </div>
-
 <div class="panel">
 <h2>Coming next</h2>
 <p class="muted">Scheduled stock-feed processing and subscription billing still require additional server-side work. Staff invitations require a successful live test before production use.</p>
 </div>
 </div>
 </section>
-
 <section class="panel connection-panel">
 <h3>Connection status</h3>
-<p id="status" class="status muted" role="status" aria-live="polite">Starting…</p>
+<p aria-live="polite" class="status muted" id="status" role="status">Starting…</p>
 </section>
 </main>
-
 <script type="module">
 import {createClient} from 'https://esm.sh/@supabase/supabase-js@2';
 

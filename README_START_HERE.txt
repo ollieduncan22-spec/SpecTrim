@@ -1,12 +1,18 @@
-SpecTrim master project - 19 October 2026
+SpecTrim — Pearl White / Charcoal / Deep Red | GitHub-ready master package
 
-Files:
-index.html = website
-owner.html = owner dashboard
-assets/spectrim-logo.png = transparent SF logo
-app/src/main/assets/index.html = Android WebView copy of website
-Android build project and GitHub Actions workflow retained.
+UPLOAD TO GITHUB
+1. Extract this ZIP.
+2. Upload the CONTENTS of this folder to your SpecTrim repository root (not the ZIP itself).
+3. Existing files must be replaced by the updated files; ensure subfolders are included.
+4. GitHub Pages: Settings > Pages > Deploy from branch > main > /(root).
+5. Visit https://ollieduncan22-spec.github.io/SpecTrim/ and refresh with Ctrl+F5.
 
-Brand: Racing Green / ivory / bronze; Source Sans 3 (Google Fonts online, Arial offline fallback); squared panels with restrained borders.
+WHAT IS INCLUDED
+index.html: functional demonstration sales app, restyled to the approved Pearl White mockup.
+owner.html: owner portal restyled to match; existing Supabase logic retained.
+assets/: ST logo, hero car and illustrative showcase imagery.
+app/: Android WebView project, matching assets and app icon.
+.github/workflows/: APK build workflow.
 
-IMPORTANT: This is a source-level visual consistency pass, not a browser/device test. Existing JavaScript and Supabase wiring were preserved. Preview both website and owner portal before deploying. Do not delete your existing GitHub repo.
+IMPORTANT
+The design follows the mockup closely but is a responsive working implementation, not a pixel-perfect reproduction of a static illustration. The existing app is a demonstration and uses synthetic inventory; imagery is illustrative. No Supabase credentials or production stock feeds have been added. Test all roles and flows before replacing any production system.
