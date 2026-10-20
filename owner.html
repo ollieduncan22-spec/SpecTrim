@@ -230,7 +230,7 @@ body.spectrim-embedded .overview-head{margin-top:0!important}
 @media(max-width:650px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.owner-content{min-width:0!important}}
 </style>
 <script>if(new URLSearchParams(location.search).get('embedded')==='1')document.addEventListener('DOMContentLoaded',()=>document.body.classList.add('spectrim-embedded'));</script>
-</head>
+<style id="phase1-owner-polish">body.spectrim-embedded,body.spectrim-embedded main,body.spectrim-embedded .owner-layout,body.spectrim-embedded .owner-content{height:auto!important;min-height:0!important;overflow:visible!important}button[type=submit],.primary,.btn-primary{background:#30383c!important;color:white!important}button[type=submit] *, .primary *,.btn-primary *{color:white!important}</style></head>
 <body>
 <header>
 <div class="st-portal-brand"><img alt="SpecTrim emblem" src="assets/spectrim-logo.webp"/><div><h1>Spec<span>Trim</span></h1><div class="st-portal-sub">AUTOMOTIVE INTELLIGENCE · OWNER PORTAL</div></div></div>
@@ -723,5 +723,5 @@ async function startUnified(){
 }
 startUnified();
 </script>
-</body>
+<script id="phase1-height-sync">(function(){if(new URLSearchParams(location.search).get('embedded')!=='1'||parent===window)return;let queued=false;function send(){queued=false;parent.postMessage({type:'spectrim-height',height:Math.max(document.documentElement.scrollHeight,document.body.scrollHeight,document.body.offsetHeight)},location.origin)}function schedule(){if(!queued){queued=true;requestAnimationFrame(send)}}document.addEventListener('DOMContentLoaded',()=>{document.body.classList.add('spectrim-embedded');if(window.ResizeObserver)new ResizeObserver(schedule).observe(document.body);new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true});schedule()});addEventListener('load',schedule);addEventListener('resize',schedule)})();</script></body>
 </html>

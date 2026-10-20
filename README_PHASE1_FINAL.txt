@@ -1,0 +1,1 @@
+SpecTrim Phase 1 visual polish: single browser scrollbar via iframe height sync; charcoal-only Sales Assist; owner button contrast. Preserve Supabase authentication and existing features. Test all roles after upload. 15-minute inactivity sign-out remains Phase 2. Upload extracted files to GitHub repository root; keep a backup commit.
